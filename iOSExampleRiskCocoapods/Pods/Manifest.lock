@@ -1,9 +1,9 @@
 PODS:
   - CheckoutEventLoggerKit (1.2.4)
-  - FingerprintPro (2.2.0)
+  - FingerprintPro (2.3.1)
   - Risk (1.0.0):
     - CheckoutEventLoggerKit (~> 1.2.4)
-    - FingerprintPro (= 2.2.0)
+    - FingerprintPro (= 2.3.1)
 
 DEPENDENCIES:
   - Risk (= 1.0.0)

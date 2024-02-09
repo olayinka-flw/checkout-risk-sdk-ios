@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     s.source_files = 'Sources/**/*.swift'
     
     s.dependency 'CheckoutEventLoggerKit', '~> 1.2.4'
-    s.dependency 'FingerprintPro', '2.2.0'
+    s.dependency 'FingerprintPro', '2.3.1'
 
     # This resolves the missing SWIFT_INCLUDE_PATHS variable
     s.pod_target_xcconfig   = { 'SWIFT_INCLUDE_PATHS' => '$(inherited) ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)'}
