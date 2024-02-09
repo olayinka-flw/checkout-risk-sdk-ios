@@ -161,8 +161,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : FingerprintPro.FingerprintClientProviding>",
             "sugared_genericSig": "<Self where Self : FingerprintPro.FingerprintClientProviding>",
             "protocolReq": true,
-            "intro_iOS": "12.0",
-            "intro_tvOS": "12.0",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
             "declAttributes": [
               "Available",
               "Available",
@@ -235,8 +235,8 @@
             "genericSig": "<τ_0_0 where τ_0_0 : FingerprintPro.FingerprintClientProviding>",
             "sugared_genericSig": "<Self where Self : FingerprintPro.FingerprintClientProviding>",
             "protocolReq": true,
-            "intro_iOS": "12.0",
-            "intro_tvOS": "12.0",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
             "declAttributes": [
               "Available",
               "Available",
@@ -395,8 +395,8 @@
             "moduleName": "FingerprintPro",
             "genericSig": "<τ_0_0 where τ_0_0 : FingerprintPro.FingerprintClientProviding>",
             "sugared_genericSig": "<Self where Self : FingerprintPro.FingerprintClientProviding>",
-            "intro_iOS": "12.0",
-            "intro_tvOS": "12.0",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
             "declAttributes": [
               "Available",
               "Available"
@@ -468,8 +468,8 @@
             "moduleName": "FingerprintPro",
             "genericSig": "<τ_0_0 where τ_0_0 : FingerprintPro.FingerprintClientProviding>",
             "sugared_genericSig": "<Self where Self : FingerprintPro.FingerprintClientProviding>",
-            "intro_iOS": "12.0",
-            "intro_tvOS": "12.0",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
             "declAttributes": [
               "Available",
               "Available"

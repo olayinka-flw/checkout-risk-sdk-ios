@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FingerprintPro
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FingerprintPro
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CommonCrypto
 import Foundation
@@ -18,9 +18,9 @@ public protocol FingerprintClientProviding {
   @available(iOS 13.0, tvOS 13.0, *)
   func getVisitorIdResponse(_ metadata: FingerprintPro.Metadata?) async throws -> FingerprintPro.FingerprintResponse
   #endif
-  @available(iOS 12.0, tvOS 12.0, *)
+  @available(iOS 13.0, tvOS 13.0, *)
   func getVisitorId(_ metadata: FingerprintPro.Metadata?, completion: @escaping FingerprintPro.VisitorIdBlock)
-  @available(iOS 12.0, tvOS 12.0, *)
+  @available(iOS 13.0, tvOS 13.0, *)
   func getVisitorIdResponse(_ metadata: FingerprintPro.Metadata?, completion: @escaping FingerprintPro.VisitorIdResponseBlock)
 }
 extension FingerprintPro.FingerprintClientProviding {
@@ -32,9 +32,9 @@ extension FingerprintPro.FingerprintClientProviding {
   @available(iOS 13.0, tvOS 13.0, *)
   public func getVisitorIdResponse(_ metadata: FingerprintPro.Metadata? = nil) async throws -> FingerprintPro.FingerprintResponse
   #endif
-  @available(iOS 12.0, tvOS 12.0, *)
+  @available(iOS 13.0, tvOS 13.0, *)
   public func getVisitorId(_ metadata: FingerprintPro.Metadata? = nil, completion: @escaping FingerprintPro.VisitorIdBlock)
-  @available(iOS 12.0, tvOS 12.0, *)
+  @available(iOS 13.0, tvOS 13.0, *)
   public func getVisitorIdResponse(_ metadata: FingerprintPro.Metadata? = nil, completion: @escaping FingerprintPro.VisitorIdResponseBlock)
 }
 extension Swift.String : FingerprintPro.JSONTypeConvertible {
